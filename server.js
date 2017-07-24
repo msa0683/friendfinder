@@ -1,7 +1,11 @@
 var express = require('express');
 var app = express();
+var path = require("path");
 var bodyParser= require("body-parser");
 var PORT = process.env.PORT || 8080;
+
+
+module.exports = function(app) {
 
 app.get("/", function(req, res) {
 	res.send("Hello world");
@@ -19,6 +23,7 @@ app.use(function(req, res) {
 app.listen(PORT, function(){
 	console.log("APP listening on Port: " + PORT);
 });
+};
 
 
 
