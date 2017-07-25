@@ -1,4 +1,4 @@
-var friends = [
+var friendsArray = [
   {  	
   "name":"Ahmed",
   "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
@@ -14,7 +14,7 @@ var friends = [
       4,
       1
     ]
-  }
+  },
 
   {   
   "name":"Angelina Jolie",
@@ -31,7 +31,7 @@ var friends = [
       3,
       1
     ]
-  }
+  },
 
   {   
   "name":"Leonardo DiCaprio",
@@ -48,7 +48,7 @@ var friends = [
       5,
       1
     ]
-  }
+  },
   {   
   "name":"Sheryl Sundberg",
   "photo":"",
@@ -68,7 +68,6 @@ var friends = [
 
 ]
 
-module.exports = friends;
+module.exports = friendsArray;
 
 
-module.exports = friends;
